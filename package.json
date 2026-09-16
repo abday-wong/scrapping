@@ -1,0 +1,20 @@
+{
+  "name": "lisa-locomotive-clone",
+  "version": "1.0.0",
+  "description": "Locomotive® Interactive Super Assistant (L.I.S.A) full duplicate and scrape",
+  "scripts": {
+    "start": "python server.py --open",
+    "serve": "python server.py"
+  },
+  "keywords": [
+    "locomotive",
+    "lisa",
+    "interactive-assistant",
+    "threejs",
+    "vue",
+    "gsap",
+    "webaudio"
+  ],
+  "author": "",
+  "license": "ISC"
+}
