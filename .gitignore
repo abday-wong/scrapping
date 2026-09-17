@@ -12,5 +12,12 @@ npm-debug.log*
 __pycache__/
 *.pyc
 
-# Temp previews (optional)
+# Temp previews
 preview*.png
+!preview_joker.png
+
+# 3D Binaries & Backups
+*.binz
+*.rar
+*original.glb
+
