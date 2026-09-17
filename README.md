@@ -1,22 +1,26 @@
-# Locomotive® — L.I.S.A x Persona 5 Joker Clone
+# Phantom Thieves of Hearts — Persona 5 Royal (L.I.S.A Interactive Experience)
 
-Duplikat interaktif dari website **[https://lisa.locomotive.ca/en](https://lisa.locomotive.ca/en)** oleh Locomotive®, kini dimodifikasi dengan avatar 3D interaktif **Joker dari Persona 5**!
+Duplikat interaktif dari website **[https://lisa.locomotive.ca/en](https://lisa.locomotive.ca/en)** yang telah direbrand total menjadi **Phantom Thieves of Hearts** dengan avatar 3D interaktif **Joker dari Persona 5 Royal**, lengkap dengan logo resmi Flaming Top Hat & Domino Mask!
 
 ![Joker Persona 5 3D Preview](preview_joker.png)
 
-Proyek ini telah di-scrape secara menyeluruh dan direkonstruksi agar dapat dijalankan secara lokal dengan seluruh fitur interaktif, grafis 3D WebGL (Three.js), animasi tipografi, efek suara, dan model karakter 3D kustom Joker (Phantom Thief attire) yang responsif terhadap pergerakan mouse dan animasi interaktif.
+Proyek ini telah direkonstruksi dan dimodifikasi agar dapat dijalankan secara lokal dengan seluruh fitur interaktif, grafis 3D WebGL (Three.js), tipografi dinamis, efek suara, preloader bertema Persona 5 Royal, dan model karakter 3D kustom Joker (Phantom Thief attire) yang responsif terhadap pergerakan mouse dan dialog interaktif.
 
 ---
 
 ## Fitur & Modifikasi Utama
 
-1. **Karakter 3D Kustom — Joker (Persona 5)**:
+1. **Rebranding Phantom Thieves & Logo Persona 5 Royal**:
+   - Branding "Locomotive" diganti sepenuhnya menjadi **Phantom Thieves**.
+   - Logo header diganti menggunakan vektor resmi logo **Phantom Thieves of Hearts (Flaming Top Hat dengan Domino Mask)** khas Persona 5 Royal.
+   - Preloader bertema Metaverse dengan logo berapi Phantom Thieves, efek red aura glow, dan tipografi dinamis.
+   - Metadata, OpenGraph, dan favicons (`favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`) diperbarui dengan emblem Persona 5 Royal.
+
+2. **Karakter 3D Kustom — Joker (Persona 5)**:
    - Model 3D game-accurate Joker (`assets/lisa/sixty/lisa.glb`) lengkap dengan jubah hitam khas Phantom Thief, kerah tinggi, rompi double-breasted, topeng domino putih (mask), rambut acak anime, dan sarung tangan merah.
+   - Pose berdiri santai (relaxed standing pose) yang natural dengan lengan rileks di samping badan.
    - PBR Materials (Standard/Physical) dengan tekstur beresolusi tinggi, pencahayaan refleksi dinamis EXR, dan dukungan double-sided rendering.
    - Rigging hierarki Three.js adaptif (`Lisa`, `Armature`, `neck1`, `torso`, `Head`, `Raycaster`) yang mempertahankan animasi pernapasan (idle sway) serta mouse-look tracking.
-2. **Preloader & Brand Intro GSAP**:
-   - Animasi scrambler teks interaktif Locomotive (*"Digital-First Agency Based in Montreal, Canada"*).
-   - Transisi logo SVG Locomotive yang presisi dengan opsi skip instan via klik.
 3. **Voice Audio & Sound Effects (Web Audio API)**:
    - Backsound ambien `ambient.mp3` dengan loop dan kontrol volume.
    - **319 file suara studio asli** dalam format `.mp3` (`assets/lisa/en/*.mp3`) untuk seluruh variasi dialog percakapan.
